@@ -634,6 +634,10 @@
 		<key>UseIntelHDMI</key>
 		<false/>
 	</dict>
+	<key>DisableDrivers</key>
+	<array>
+		<string>NTFS</string>
+	</array>
 	<key>GUI</key>
 	<dict>
 		<key>#ConsoleMode</key>
@@ -854,7 +858,7 @@
 		<key>PatchVBios</key>
 		<false/>
 		<key>ig-platform-id</key>
-		<string>0x01620005</string>
+		<string>0x591b0006</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
