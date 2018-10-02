@@ -1,8 +1,19 @@
-Clover ESP Folder
+EFI(Clover bootloader)
 ------
-This is a backup for my Clover bootloader for macOS and Windows10
+This is a configured project for EFI sytem partition using clover bootloader for macOS and Windows10
 
-### HardWare Of Host
+### Bootloader screenshot preview
+![BootLoader](CLOVER/themes/embedded/screenshot.png)  
+
+### Installation:
+1. Copy the EFI project to your ESP partition on GPT disk
+2. Add the EFI/Clover/CLOVERX64.efi to boot menu using easyUEFI tool
+
+### Requirements:
+- UEFI boot option
+- GPT partition disk
+
+### Surppoted Hosts:
 
 电脑型号1 | 兼容电脑台式机
 -|-
