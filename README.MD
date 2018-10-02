@@ -7,7 +7,7 @@ This is a configured project for EFI sytem partition using clover bootloader for
 
 ### Installation:
 1. Copy the EFI project to your ESP partition on GPT disk
-2. Add the EFI/Clover/CLOVERX64.efi to boot menu using easyUEFI tool
+2. Add the EFI/Clover/CLOVERX64.efi to boot menu using [easyUEFI](https://www.easyuefi.com/index-us.html) tool
 
 ### Requirements:
 - UEFI boot option

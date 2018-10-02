@@ -293,7 +293,7 @@
 		<key>#XMPDetection</key>
 		<string>-1</string>
 		<key>Arguments</key>
-		<string>-v slide=0 darkwake=0 nv_disable=1</string>
+		<string>-igfxbeta nv_disable=1 darkwake=0 -v slide=0 -disablegfxfirmware -lilubeta</string>
 		<key>CustomLogo</key>
 		<string>Apple</string>
 		<key>Debug</key>
@@ -771,7 +771,7 @@
 			<false/>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>1920x1080</string>
+		<string>1280x720</string>
 		<key>ShowOptimus</key>
 		<false/>
 		<key>Theme</key>
@@ -854,7 +854,7 @@
 		<key>PatchVBios</key>
 		<false/>
 		<key>ig-platform-id</key>
-		<string>0x01620005</string>
+		<string>0x59120000</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -1143,13 +1143,13 @@
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM183.88Z.0161.B00.1806260901</string>
+		<string>IM181.88Z.0161.B00.1806260901</string>
 		<key>Board-ID</key>
-		<string>Mac-BE088AF8C5EB4FA2</string>
+		<string>Mac-4B682C642B45593E</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02704102GUF653AD</string>
+		<string>C02716802GUFF4NA8</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -1175,11 +1175,11 @@
 		<key>PlatformFeature</key>
 		<string>0x00</string>
 		<key>ProductName</key>
-		<string>iMac18,3</string>
+		<string>iMac18,1</string>
 		<key>SerialNumber</key>
-		<string>C02T50UBJ1GJ</string>
+		<string>C02TLEZ1H7JY</string>
 		<key>SmUUID</key>
-		<string>48E3692B-AF5B-47A8-956E-5EDA1A8B911F</string>
+		<string>BEC67116-D340-4398-8F4B-C031EFDAE4C7</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>

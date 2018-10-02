@@ -62,35 +62,6 @@
 			<false/>
 			<key>Debug</key>
 			<false/>
-			<key>DropOEM_DSM</key>
-			<dict>
-				<key>ATI</key>
-				<false/>
-				<key>Firewire</key>
-				<false/>
-				<key>HDA</key>
-				<false/>
-				<key>HDMI</key>
-				<false/>
-				<key>IDE</key>
-				<false/>
-				<key>IntelGFX</key>
-				<false/>
-				<key>LAN</key>
-				<true/>
-				<key>LPC</key>
-				<false/>
-				<key>NVidia</key>
-				<false/>
-				<key>SATA</key>
-				<false/>
-				<key>SmBUS</key>
-				<false/>
-				<key>USB</key>
-				<false/>
-				<key>WIFI</key>
-				<false/>
-			</dict>
 			<key>Fixes</key>
 			<dict>
 				<key>AddDTGP</key>
@@ -322,7 +293,9 @@
 		<key>#XMPDetection</key>
 		<string>-1</string>
 		<key>Arguments</key>
-		<string>-v slide=0 darkwake=0 nv_disable=1</string>
+		<string>-igfxbeta nv_disable=1 darkwake=0 -v slide=0 -disablegfxfirmware -lilubeta</string>
+		<key>CustomLogo</key>
+		<string>Apple</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -345,6 +318,8 @@
 		<false/>
 		<key>Timeout</key>
 		<integer>5</integer>
+		<key>XMPDetection</key>
+		<string>Yes</string>
 	</dict>
 	<key>BootGraphics</key>
 	<dict>
@@ -641,6 +616,8 @@
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
+		<key>HDMIInjection</key>
+		<false/>
 		<key>LANInjection</key>
 		<false/>
 		<key>USB</key>
@@ -657,10 +634,6 @@
 		<key>UseIntelHDMI</key>
 		<false/>
 	</dict>
-	<key>DisableDrivers</key>
-	<array>
-		<string>NTFS</string>
-	</array>
 	<key>GUI</key>
 	<dict>
 		<key>#ConsoleMode</key>
@@ -785,6 +758,18 @@
 		</dict>
 		<key>#TextOnly</key>
 		<false/>
+		<key>Hide</key>
+		<array>
+			<string>Recovery</string>
+			<string>Preboot</string>
+		</array>
+		<key>Scan</key>
+		<dict>
+			<key>Legacy</key>
+			<false/>
+			<key>Tool</key>
+			<false/>
+		</dict>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>ShowOptimus</key>
@@ -850,6 +835,8 @@
 			<string>0x1006</string>
 			<key>#VideoInputSignal</key>
 			<string>0xA1</string>
+			<key>Inject</key>
+			<false/>
 		</dict>
 		<key>Inject</key>
 		<dict>
@@ -860,10 +847,14 @@
 			<key>NVidia</key>
 			<false/>
 		</dict>
+		<key>LoadVBios</key>
+		<false/>
 		<key>NvidiaSingle</key>
 		<false/>
+		<key>PatchVBios</key>
+		<false/>
 		<key>ig-platform-id</key>
-		<string>0x01620005</string>
+		<string>0x59120000</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -1063,7 +1054,7 @@
 		<string>C02032109R5DC771H</string>
 		<key>ROM</key>
 		<data>
-		w4/gCAgI
+		3XM3CAgI
 		</data>
 	</dict>
 	<key>SMBIOS</key>
@@ -1148,35 +1139,47 @@
 		<key>#Trust</key>
 		<true/>
 		<key>BiosReleaseDate</key>
-		<string>09/22/2018</string>
+		<string>06/26/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP132.88Z.0226.B11.1612220124</string>
+		<string>IM171.88Z.0157.B00.1806261148</string>
 		<key>Board-ID</key>
-		<string>Mac-66E35819EE2D0D05</string>
+		<string>Mac-B809C3757DA9BB8D</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02032101R5DC771H</string>
+		<string>C02744609CDFF4KJC</string>
 		<key>BoardType</key>
 		<integer>10</integer>
+		<key>BoardVersion</key>
+		<string>1.0</string>
 		<key>ChassisAssetTag</key>
-		<string>MacBook-Aluminum</string>
+		<string>iMac-Aluminum</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
-		<string>16</string>
+		<string>0x09</string>
 		<key>Family</key>
-		<string>MacBook Pro</string>
+		<string>iMac17,1</string>
+		<key>FirmwareFeatures</key>
+		<string>0xFC0FE137</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFF1FFF3F</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
 		<key>Mobile</key>
-		<true/>
+		<false/>
+		<key>PlatformFeature</key>
+		<string>0x00</string>
 		<key>ProductName</key>
-		<string>MacBookPro13,2</string>
+		<string>iMac17,1</string>
 		<key>SerialNumber</key>
-		<string>4H629LYAU9C</string>
+		<string>C02VM0MBGG7L</string>
+		<key>SmUUID</key>
+		<string>AB425792-4790-4172-9FEA-DC379D6CEE3D</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>

@@ -293,7 +293,7 @@
 		<key>#XMPDetection</key>
 		<string>-1</string>
 		<key>Arguments</key>
-		<string>-v slide=0 darkwake=0 nv_disable=1</string>
+		<string>-igfxbeta nv_disable=1 darkwake=0 -v slide=0 -disablegfxfirmware -lilubeta</string>
 		<key>CustomLogo</key>
 		<string>Apple</string>
 		<key>Debug</key>
@@ -634,10 +634,6 @@
 		<key>UseIntelHDMI</key>
 		<false/>
 	</dict>
-	<key>DisableDrivers</key>
-	<array>
-		<string>NTFS</string>
-	</array>
 	<key>GUI</key>
 	<dict>
 		<key>#ConsoleMode</key>
@@ -1143,17 +1139,17 @@
 		<key>#Trust</key>
 		<true/>
 		<key>BiosReleaseDate</key>
-		<string>06/26/2018</string>
+		<string>04/11/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM183.88Z.0161.B00.1806260901</string>
+		<string>IM151.88Z.0217.B00.1804111039</string>
 		<key>Board-ID</key>
-		<string>Mac-BE088AF8C5EB4FA2</string>
+		<string>Mac-42FD25EABCABB274</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02704102GUF653AD</string>
+		<string>C02548101GUF6518C</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -1163,11 +1159,11 @@
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
-		<string>0x09</string>
+		<string>0x0D</string>
 		<key>Family</key>
 		<string>iMac</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFC0FE137</string>
+		<string>0xF80FE137</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
@@ -1177,13 +1173,13 @@
 		<key>Mobile</key>
 		<false/>
 		<key>PlatformFeature</key>
-		<string>0x00</string>
+		<string>0x01</string>
 		<key>ProductName</key>
-		<string>iMac18,3</string>
+		<string>iMac15,1</string>
 		<key>SerialNumber</key>
-		<string>C02T50UBJ1GJ</string>
+		<string>C02QR6YDFY10</string>
 		<key>SmUUID</key>
-		<string>48E3692B-AF5B-47A8-956E-5EDA1A8B911F</string>
+		<string>C5E16B51-68DB-4C20-B8CC-E0C2FAD29A26</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
