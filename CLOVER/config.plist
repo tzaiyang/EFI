@@ -293,7 +293,7 @@
 		<key>#XMPDetection</key>
 		<string>-1</string>
 		<key>Arguments</key>
-		<string>-igfxbeta nv_disable=1 darkwake=0 -v slide=0 -disablegfxfirmware -lilubeta</string>
+		<string>-lilubeta nv_disable=1 darkwake=0 -disablegfxfirmware slide=0 -igfxbeta</string>
 		<key>CustomLogo</key>
 		<string>Apple</string>
 		<key>Debug</key>
